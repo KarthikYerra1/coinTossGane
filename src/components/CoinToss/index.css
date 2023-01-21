@@ -1,0 +1,64 @@
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 25px 20px 25px 20px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.title {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+.choice {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.coin-image {
+  height: 200px;
+  width: 200px;
+}
+
+.count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  height: 40px;
+  margin-top: 20px;
+  background-color: #f9d423;
+  color: #a35200;
+  border-style: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  padding: 10px 20px 10px 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.total {
+  color: #334155;
+  margin: 18px;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
